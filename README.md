@@ -1,6 +1,6 @@
 # online-retail-II--end-to-end-analysis
 End-to-end B2B data analysis: Transforming flat-file retail transactions into relational database insights using SQL, Python (Pandas), and Tableau
-# 1. Business Understanding & Context
+# A. Business Understanding & Context
 
 Background: The company is a global wholesale (B2B) distributor specializing in unique giftware products.
 
@@ -18,21 +18,21 @@ Background: The company is a global wholesale (B2B) distributor specializing in 
 
 3.Perform Customer Segmentation using the RFM (Recency, Frequency, Monetary) model to map retail store loyalty.
 
-# 2. Data Understanding (Snapshot 2010-2011)
+# B. Data Understanding (Snapshot 2010-2011)
 1.Data Source: UCI Machine Learning Repository.
 
 2.Timeframe: December 1, 2010 – December 9, 2011.
 
 3.Dataset Characteristics: ~541,000 rows of retail transactional data.
 
-# 3. Data Cleaning & Optimization Strategy
+# C. Data Cleaning & Optimization Strategy
 1.Handling Missing Values & Duplicates: Removed rows with null Customer ID and eliminated duplicate records. Analysis revealed that missing price data could not be accurately recovered through feature relationships, necessitating removal.
 
 2.Transaction Filtering: Focused on standard transactions by excluding "C" (Canceled) codes to reflect actual sales performance and prevent overstated revenue metrics.
 
 3.Performance Optimization: Leveraged Google Colab to bypass local hardware (RAM/CPU) limitations when processing the high-volume dataset.
 
-# 4. Data Modeling (Python Implementation)
+# D. Data Modeling (Python Implementation)
 Transformed the flat-file into a relational schema to enhance visualization efficiency in Tableau:
 
 1.Dim_Customer: Contains unique Customer IDs and Country data.
@@ -41,7 +41,7 @@ Transformed the flat-file into a relational schema to enhance visualization effi
 
 3.Fact_Sales: The central transactional table linking products and customers via Invoice, Quantity, Total_Amount, and InvoiceDate.
 
-# 5. Exploratory Data Analysis & Segmentation
+# E. Exploratory Data Analysis & Segmentation
 **RFM Analysis (Python):**
 
 1.Recency: Calculated days since the last transaction per store.
@@ -52,7 +52,7 @@ Transformed the flat-file into a relational schema to enhance visualization effi
 
 **Market Intelligence: Identified non-UK regions with the most stable wholesale order frequencies.**
 
-# 6. Dashboard Visualization (Tableau)
+# F. Dashboard Visualization (Tableau)
 Connected the relational tables (Fact_Sales, Dim_Product, Dim_Customer) to visualize:
 
 1.Net Sales Performance: Monthly revenue trends derived from cleaned transactional data.
@@ -61,7 +61,7 @@ Connected the relational tables (Fact_Sales, Dim_Product, Dim_Customer) to visua
 
 3.Geographic Distribution: Mapping the global footprint of the customer base.
 
-# 7. Strategic Recommendations
+# G. Strategic Recommendations
 1.Marketing: Implement tailored loyalty programs for the "Champions" segment identified through RFM analysis.
 
 2.Inventory Management: Prioritize stock availability for products falling within the "Top 20% Pareto" category to ensure consistent wholesale fulfillment.
