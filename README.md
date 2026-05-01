@@ -1,4 +1,4 @@
-# End-to-end B2B data analysis: Transforming flat-file retail transactions into relational database insights using SQL, Python (Pandas), and Tableau
+# Transforming flat-file retail transactions into relational database insights using SQL, Python (Pandas), and Tableau
 # A. Business Understanding & Context
 
 Background: The company is a global wholesale (B2B) distributor specializing in unique giftware products.
