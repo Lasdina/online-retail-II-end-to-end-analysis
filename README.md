@@ -20,8 +20,7 @@ The company is a global wholesale (B2B) distributor specializing in unique giftw
 3.Perform Customer Segmentation using the RFM (Recency, Frequency, Monetary) model to map retail store loyalty.
 
 # B. Data Understanding (Snapshot 2010-2011)
-1.Data Source: <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/badf94ff-6d4e-4603-bacb-1aa51d8034aa" />
-.
+1.Data Source: https://archive.ics.uci.edu/dataset/502/online+retail+ii
 
 2.Timeframe: December 1, 2010 – December 9, 2011.
 
