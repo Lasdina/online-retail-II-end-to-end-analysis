@@ -43,6 +43,7 @@ Transformed the flat-file into a relational schema to enhance visualization effi
 
 # 5. Exploratory Data Analysis & Segmentation
 **RFM Analysis (Python):**
+
 1.Recency: Calculated days since the last transaction per store.
 
 2.Frequency: Quantified the number of unique orders per year.
