@@ -24,7 +24,7 @@ The company is a global wholesale (B2B) distributor specializing in unique giftw
 
 2.Timeframe: December 1, 2010 – December 9, 2011.
 
-3.Dataset Characteristics: ~541,000 rows of retail transactional data.
+3.Dataset Characteristics: 541910 rows of retail transactional data.
 
 # C. Data Cleaning & Optimization Strategy
 1.Handling Missing Values & Duplicates: Removed rows with null Customer ID and eliminated duplicate records. Analysis revealed that missing price data could not be accurately recovered through feature relationships, necessitating removal.
