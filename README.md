@@ -31,8 +31,6 @@ The company is a global wholesale (B2B) distributor specializing in unique giftw
 
 2.Transaction Filtering: Focused on standard transactions by excluding "C" (Canceled) codes to reflect actual sales performance and prevent overstated revenue metrics.
 
-3.Performance Optimization: Leveraged Google Colab to bypass local hardware (RAM/CPU) limitations when processing the high-volume dataset.
-
 # D. Data Modeling (Python Implementation)
 Transformed the flat-file into a relational schema to enhance visualization efficiency in Tableau:
 
