@@ -62,7 +62,7 @@ Connected the relational tables (Fact_Sales, Dim_Product, Dim_Customer) to visua
 
 3.Geographic Distribution: Mapping the global footprint of the customer base.
 
-Anda dapat mengakses dashboard interaktif secara lengkap melalui tautan berikut:
+Click the link below to explore the comprehensive interactive dashboard:
 
 https://drive.google.com/file/d/1eOGX-56ZdAM5TlveTawQ6cgXkacodyNb/view?usp=sharing
 
